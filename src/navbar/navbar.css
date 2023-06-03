@@ -1,0 +1,25 @@
+.parent-class {
+  display: flex;
+  background-color: grey;
+  height: 35px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  top:0;
+}
+
+.image {
+  height: 35px;
+  width: 30px;
+  margin-right: 20px;
+
+  object-fit: contain;
+}
+
+.text {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-left: 20px;
+}
